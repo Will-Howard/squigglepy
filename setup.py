@@ -14,6 +14,11 @@ setuptools.setup(
      long_description_content_type='text/markdown',
      url='https://github.com/rethinkpriorities/squigglepy',
      packages=setuptools.find_packages(),
+     install_requires=[
+        'numpy',
+        'scipy',
+        'tqdm'
+     ]
      classifiers=[
          'Development Status :: 3 - Alpha',
          'Programming Language :: Python :: 3',
